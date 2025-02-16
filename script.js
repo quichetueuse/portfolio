@@ -12,8 +12,9 @@ const link_competences = document.getElementById("link1");
 const link_bts = document.getElementById("link2");
 const link_stage = document.getElementById("link3");
 const link_projets = document.getElementById("link4");
-const link_veille = document.getElementById("link5");
-const link_apropos = document.getElementById("link6");
+const link_grille = document.getElementById("link5");
+const link_veille = document.getElementById("link6");
+const link_apropos = document.getElementById("link7");
 
 link_competences.addEventListener("click", () => {
   scrollToElement(".header");
@@ -32,6 +33,11 @@ link_stage.addEventListener("click", () => {
 link_projets.addEventListener("click", () => {
   // Scroll to stages parts
   scrollToElement(".header", 3);
+});
+
+link_grille.addEventListener("click", () => {
+  // Scroll to stages parts
+  scrollToElement(".header", 4);
 });
 
 link_veille.addEventListener("click", () => {
